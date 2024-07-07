@@ -1,0 +1,11 @@
+﻿  AcpInstance.cpp
+  Demo1.cpp
+  正在生成代码...
+AcpInstance.obj : error LNK2019: 无法解析的外部符号 __imp__OpenAcpiService，函数 "public: void * __thiscall AcpInstance::OpenServiceW(void)" (?OpenServiceW@AcpInstance@@QAEPAXXZ) 中引用了该符号
+AcpInstance.obj : error LNK2019: 无法解析的外部符号 __imp__GetNamePathFromPath，函数 "public: int __thiscall AcpInstance::getNamePathFromPath(void)" (?getNamePathFromPath@AcpInstance@@QAEHXZ) 中引用了该符号
+AcpInstance.obj : error LNK2019: 无法解析的外部符号 __imp__QueryAcpiNS，函数 "public: bool __thiscall AcpInstance::QueryAcpiNameS(void *)" (?QueryAcpiNameS@AcpInstance@@QAE_NPAX@Z) 中引用了该符号
+Demo1.obj : error LNK2019: 无法解析的外部符号 __imp__LoadAcpiObjects，函数 _main 中引用了该符号
+Demo1.obj : error LNK2019: 无法解析的外部符号 __imp__SaveAcpiObjects，函数 _main 中引用了该符号
+Demo1.obj : error LNK2019: 无法解析的外部符号 __imp__PutIntArg，函数 _main 中引用了该符号
+Demo1.obj : error LNK2019: 无法解析的外部符号 __imp__EvalAcpiNSArgAndParse，函数 _main 中引用了该符号
+D:\WindowsHwAccess-master\Debug\Demo1.exe : fatal error LNK1120: 7 个无法解析的外部命令
